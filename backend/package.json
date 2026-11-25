@@ -1,0 +1,13 @@
+{
+  "name": "shoe-store-backend",
+  "type": "module",
+  "scripts": { "start": "node --env-file-if-exists=.env server.js",
+    "seed": "node --env-file-if-exists=.env server.js --seed"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.9.0",
+    "multer": "^2.0.0"
+  }
+}
